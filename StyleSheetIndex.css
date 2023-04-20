@@ -1,0 +1,47 @@
+﻿body {
+}
+
+nav {
+    background-color: crimson;
+    height: 100vh;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    background-color: white;
+    padding: 1em 1.5em;
+    display: block;
+    margin: 5px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: crimson;
+}
+
+    li a:hover {
+        background-color: #555;
+    }
+
+img:hover {
+    transition-duration: 10s;
+    transform: rotate(1440deg);
+}
+
+.Image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+h1{
+    text-align: center;
+}
+.project{
+    text-align:center;
+}
